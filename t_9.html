@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        .main{
+        width: 800px;
+        height: 400px;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 10%;
+        }
+        h2{
+            margin-top: 25px;
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+        h5{
+            margin-bottom: 5px;
+        }
+        .left{
+            width: 55%;
+            height: 400px;
+            background-color: rgb(238, 235, 235);
+            float: left;
+        }
+        .name{
+            float: left;
+            margin-right: 12px;
+            margin-left: 20px;
+        }
+        .email{
+        }
+        .subject{
+            margin-top: 10px;
+            margin-left: 20px;
+        }
+        .right{
+            width: 45%;
+            float: right;
+        }
+        img{
+            width: 300px;
+            height: 400px;
+        }
+        .input{
+            width: 200px;
+            height: 30px;
+            border: none;
+            padding-left: 5px;
+        }
+        .sub{
+            width: 411px;
+            height: 30px;
+            border: none;
+            padding-left: 5px;
+        }
+        .messages{
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+        .message_place{
+            width: 411px;
+            height: 70px;
+            border: none;
+            padding-left: 5px;
+        }
+        button{
+            margin-top: 10px;
+            margin-left: 20px;
+            float:left;
+            padding: 8px;
+            color: white;
+            border-radius: 5px;
+            border: none;
+            background-color: blue;
+        }
+        /* last  */
+        .last_hr{
+            margin-top: 20px;
+            margin-left: 20%;
+        }
+        .hr_line{
+            width: 160px;
+            /* background-color: aqua; */
+            float: left;
+        }
+        .hl_img{
+            width: 24px;
+            height: 24px;
+            background-color: blueviolet;
+            border-radius: 50%;
+        }
+        .text{
+            float:left;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+
+        <!-- left side -->
+        <div class="left">
+            <h2>Contact Us</h2>
+            <!-- name -->
+            <div class="name">
+            <h5>FULL NAME</h5>
+            <input class="input" placeholder="Name">
+        </div>
+        <!-- email address -->
+         <div class="email">
+            <h5>EMAILADDRESS</h5>
+            <input class="input" placeholder="Email">
+         </div>
+         <!-- subject -->
+          <div class="subject">
+          <h5>SUBJECT</h5>
+          <input class="sub" placeholder="Subject">
+        </div>
+
+        <!-- Messages -->
+         <div class="messages">
+            <h5>MESSAGES</h5>
+            <input class="message_place" placeholder="Messages">
+         </div>
+         <button>Send Messages</button>
+    </div>
+    
+
+        <!-- right side -->
+        <div class="right">
+            <img src="https://images.unsplash.com/photo-1655157639280-a8e4594d98ac?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+        </div>
+
+    </div>
+
+    <div class="last_hr">
+
+        <!-- first -->
+        <div class="hr_line">
+            <center>
+            <img class="hl_img" src="/test/images/location.png" alt="">
+        </center>
+            <h5 class="text">Address</h5>
+            <p>198 wes 21th street suire 721 new york NY 10016</p>
+        </div>
+        <!-- second -->
+        <div class="hr_line">
+            <center>
+                <img class="hl_img" src="/test/images/telephone.png" alt="">
+            </center>
+            <h5 class="text">Phone</h5>
+            <p>123465798</p>
+        </div>
+        <!-- third -->
+        <div class="hr_line">
+            <center><img class="hl_img" src="/test/images/internet.png" alt="">
+            </center>
+            <h5 class="text">Email</h5>
+            <p>info@youtube.com</p>
+        </div>
+        <!-- fourth -->
+        <div class="hr_line"></div>
+    </div>
+</body>
+</html>
